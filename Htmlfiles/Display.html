@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Properties</title>
+    <style>
+      p {
+        color: red;
+      }
+      p.text1 {
+        display: none;
+      }
+      p.text2 {
+        display: inline;
+      }
+      #mydiv {
+        height: 80px;
+        background-color: aqua;
+      }
+      #mydiv p {
+        background-color: antiquewhite;
+        padding: 10px;
+        margin: 20px;
+        display: list-item;
+      }
+      #mydiv span {
+        background-color: rgb(165, 26, 158);
+        padding: 10px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Head Tag</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, officia?
+    </p>
+    <h3>
+      Display None: if you give display as none to the class that is assined to
+      that particular para within style tag property, then the text given in
+      that particular tag will not displayed in the output. Example: start
+      "style tag" p.text1 { display: none; } end "style tag"
+    </h3>
+    <p class="text1">This content will not appear in the output</p>
+    <div>
+      Display Inline text property is used to assign the styles in between the
+      text in the content.
+      <p class="text2">Display inline text</p>
+      For example, here the content given in the div tag has tow different
+      colors. Here a class is assigned in a para tag within the div and
+      <p class="text2">
+        the text that is present inside that tag alone is given red color.
+      </p>
+    </div>
+    <div id="mydiv">
+      <p><span>Text1</span><span>Text2</span></p>
+      <p><span>Content1</span><span>Content2</span></p>
+    </div>
+  </body>
+</html>

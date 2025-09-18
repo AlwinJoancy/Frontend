@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Properties</title>
+    <style>
+      .box {
+        font-size: 16px;
+        font-family: sans-serif;
+        padding: 20px;
+        margin: 20px;
+        border-left: 2px solid blue;
+        border-right: 2px solid blue;
+      }
+
+      .custom-border {
+        border-top: 0pc;
+        border-bottom: 0cqi;
+      }
+
+      .normal-border {
+        border-top: 2px solid red;
+        border-bottom: 2px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box normal-border">
+      🔴 This box has visible top (red) and bottom (green) borders.
+    </div>
+
+    <div class="box custom-border">
+      ⚪ This box has <strong>no top or bottom borders</strong> due to
+      <code>border-top: 0pc;</code> and <code>border-bottom: 0cqi;</code>.
+    </div>
+  </body>
+</html>

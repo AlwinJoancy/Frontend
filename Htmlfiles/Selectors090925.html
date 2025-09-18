@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <link rel="stylesheet" href="/CSS/Selectors090925.css" />
+    <h5>
+      First link the css file with this html file using link tag or attribute
+    </h5>
+    <style>
+      div p {
+        background-color: aquamarine;
+        font-size: large;
+        border: 0cm;
+      }
+      div > h6 {
+        background-color: antiquewhite;
+      }
+      div + h4 {
+        background-color: tomato;
+      }
+      div ~ h3 {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <h5>Simple Selectors - Class, id, group, universal</h5>
+    <p class="para1">
+      Class Selector: styles defined within the inline tag by creating a 'class'
+      with 'class name' and that particular class name is called by dot (.) in
+      the css file that is linked. We can give more than one class name
+      seperated by sapce within the same tag and also the same class name for
+      different tags. Example: Refer button tag for clarification.
+    </p>
+    <h5>id selector</h5>
+    <p id="para2">
+      id selector is defined or called by (#) symbol followed by "id name" in
+      css file.
+    </p>
+    <h5>
+      Universal selector: is used to create designs or styles to the
+      whole/entire web page and is called or defined by (*) symbol. No name is
+      asigned to universal selector but we assign a name to Class and id
+      selectors.
+    </h5>
+    <button type="button" class="btn btn2">Login</button>
+    <button type="button" class="btn btn3">Register</button>
+    <button type="button" class="btn btn4">Log Out</button>
+    <h5>Combinators in CSS</h5>
+    <div>
+      <p>
+        Descendent Combinators: style that is given to a contant of the tag that
+        is defined within the "div". It is defined by giveng (space) before the
+        element.
+      </p>
+    </div>
+    <div>
+      <h6>Child Combinators: It is defined by (>) symbol in css file.</h6>
+      <h6>Heading 1</h6>
+      <h6>Heading 2</h6>
+      <h6>Heading 3</h6>
+    </div>
+    <h4>
+      Next Sibling Cimbinators: Given style or design is applied to the "h6"
+      tag/element that is next to or followed by the "div" tag.It is defined by
+      (+) symbol in the head tag
+    </h4>
+    <h4>
+      Text 1:No div tag before this so next sibling combinator is not applied
+      for ths line of text.
+    </h4>
+    <h4>
+      Text 2: No div tag before this so next sibling combinator is not applied
+      for ths line of text.
+    </h4>
+    <div>
+      This is the div tag and below line text 3 is after this div tag, so the
+      sibling combinator is applied for the below line
+    </div>
+    <h4>
+      Text 3: This line of text heading is given after the div tag, so the style
+      next sibling combinator is applied for this line.
+    </h4>
+    <h4>
+      Text 4: you dont have div tag before your tag, so sibling combinator style
+      is not applied here.
+    </h4>
+    <div>Div tag 1</div>
+    <h3>
+      Subsequent-sibling Combinator: Style give in applied for all the head tags
+      that is after the div tag. It is defined by (~) symbol.
+    </h3>
+    <h3>Subsequent-sibling Combinator 2</h3>
+    <h3>Subsequent-sibling Combinator 3</h3>
+  </body>
+</html>
