@@ -1,0 +1,30 @@
+.main-border{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: auto;
+    
+}
+.Box{display: flex;
+    gap: 10px;}
+.border1 {
+    width: 200px;
+    height: 150px;
+    border: 1px solid green;
+    /* display: flex;
+    justify-items: left;
+    justify-content: left; */
+    float: left;
+}
+.border2 {
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(9, 0, 128);
+    /* display: flex;
+    justify-items: right;
+    justify-content: right;
+    /* padding: 20px; */
+    /* flex: 30px; */
+    float: right; 
+    
+}

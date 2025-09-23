@@ -27,7 +27,8 @@ p {
 }
 .para1{
         background-image: url(../Pictures/img3.jpg);
-        height: 100%; width: 100%;
+        height: 100%;
+        width: 100%;
  } 
  
  .para2{background-color: aquamarine;}
