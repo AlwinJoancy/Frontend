@@ -6,6 +6,7 @@
     
 }
 .Box{display: flex;
+    flex-wrap: wrap;
     gap: 10px;}
 .border1 {
     width: 200px;
