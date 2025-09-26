@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    overflow: visible;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    display: block;
+}
+
+.head{
+    height: 50px;
+    width: 1680px;
+    padding: 10px;
+    background-color: #000000;
+    display: flex;
+    column-gap: 10px;
+    
+}
+.btn{
+padding: 0px;
+color: #000000;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    text-align: left;
+          
+}
