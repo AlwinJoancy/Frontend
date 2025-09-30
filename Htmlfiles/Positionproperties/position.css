@@ -1,0 +1,57 @@
+.main-container{
+    height: 500px;
+    width: 700px;
+    border: 5px solid rebeccapurple;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    font-size: large;
+}
+.box1{
+    background-color: rgb(255, 0, 221);
+}
+.box2{
+    background-color: brown;
+    position: absolute;
+    right: 10px;
+}
+.box3{background-color: blueviolet;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.Second-container{
+    height: 500px;
+    width: 700px;
+    padding: 20px;   
+    align-items: last baseline;
+    border: 5px solid brown;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    color: rgb(3, 3, 3);
+    font-size: large;
+}
+.box4 {
+    background-color: rgb(30, 168, 30);
+    position: relative;
+    left: 10px;
+}
+.box5 {
+    background-color: rgb(192, 87, 17);
+    position: relative;
+    top: 5px;
+    left: 100px;
+}
+.box6 {
+    background-color: rgb(208, 235, 58);
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
