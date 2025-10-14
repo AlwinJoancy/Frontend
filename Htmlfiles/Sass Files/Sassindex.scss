@@ -1,0 +1,9 @@
+@import "./Sassvariable.scss";
+.sass_file{
+       color: $text_color;
+       word-spacing: $word_space ;
+       font-size: $font_size;
+       background-color: $bg_color;
+       font-family:$ft_family;
+       
+}
