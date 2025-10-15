@@ -1,0 +1,30 @@
+body{
+   
+    background-image: url(https://preview.colorlib.com/theme/music/images/index.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;   /* Stretches the image to cover the entire background */
+    background-attachment: fixed;
+}
+.main_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    h{
+        color: aliceblue;
+        font-family: "josefin Sans",sans-serif;
+        font-size: 14px
+    }
+    p{
+       
+    }
+}
+ul{
+    list-style: none;
+    display: flex;
+
+    a{
+        color: aliceblue;
+        padding: 10px;
+    }
+}

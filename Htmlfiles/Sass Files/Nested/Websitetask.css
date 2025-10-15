@@ -1,0 +1,25 @@
+body {
+  background-image: url(https://preview.colorlib.com/theme/music/images/index.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover; /* Stretches the image to cover the entire background */
+  background-attachment: fixed;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_header h {
+  color: aliceblue;
+  font-family: "josefin Sans", sans-serif;
+  font-size: 14px;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+ul a {
+  color: aliceblue;
+  padding: 10px;
+}/*# sourceMappingURL=Websitetask.css.map */

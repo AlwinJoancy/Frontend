@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login / Register</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Toggle buttons -->
+      <input type="radio" name="slider" id="login" checked />
+      <input type="radio" name="slider" id="register" />
+
+      <div class="nav">
+        <label for="login" class="login">Login</label>
+        <label for="register" class="register">Register</label>
+        <div class="slider"></div>
+      </div>
+
+      <!-- Forms -->
+      <div class="form-area">
+        <!-- Login Form -->
+        <form class="form login-form">
+          <h2>Welcome Back</h2>
+          <div class="input-box">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Password" required />
+          </div>
+          <button type="submit">Login</button>
+          <p class="link">
+            Don't have an account? <label for="register">Register</label>
+          </p>
+        </form>
+
+        <!-- Register Form -->
+        <form class="form register-form">
+          <h2>Create Account</h2>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required />
+          </div>
+          <div class="input-box">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Password" required />
+          </div>
+          <button type="submit">Register</button>
+          <p class="link">
+            Already have an account? <label for="login">Login</label>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
